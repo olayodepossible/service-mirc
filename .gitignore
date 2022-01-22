@@ -1,0 +1,5 @@
+/target/
+.idea/
+
+services-mirc.iml
+.DS_Store
