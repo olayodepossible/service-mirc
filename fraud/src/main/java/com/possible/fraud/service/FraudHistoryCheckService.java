@@ -12,7 +12,6 @@ import java.time.LocalDateTime;
 public class FraudHistoryCheckService {
     private final FraudHistoryCheckRepository repo;
 
-
     public boolean isFraudulentCustomer(Integer customerId){
         repo.save(
                 FraudHistoryCheck.builder()
