@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 public record CustomerService(CustomerRepository customerRepository, FraudClient fraudClient) {
 
     public void registerCustomer(CustomerRegistrationRequest request) {
+        //TODO call third-party API
         Customer customer = Customer.builder()
                 .firstName(request.firstName())
                 .lastName(request.lastName())
