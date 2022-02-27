@@ -1,7 +1,7 @@
 /target/
 .idea/
 
-services-mirc.iml
+.iml
 .DS_Store
 
 # Default ignored files
