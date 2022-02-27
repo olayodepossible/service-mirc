@@ -1,6 +1,6 @@
 package com.possible.clients.fraud;
 
-import com.possible.clients.fraud.dto.FraudCheckResponse;;
+import com.possible.clients.notification.dto.NotificationResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,5 +9,5 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface FraudClient {
 
     @GetMapping("{customerId}")
-    FraudCheckResponse isFraudster(@PathVariable("customerId") Integer customerId);
+    NotificationResponse isFraudster(@PathVariable("customerId") Integer customerId);
 }

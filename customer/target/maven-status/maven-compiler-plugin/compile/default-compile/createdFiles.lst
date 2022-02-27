@@ -1,0 +1,8 @@
+com/possible/customer/services/CustomerService.class
+com/possible/customer/model/Customer$CustomerBuilder.class
+com/possible/customer/config/CustomerConfig.class
+com/possible/customer/model/dto/CustomerRegistrationRequest.class
+com/possible/customer/model/Customer.class
+com/possible/customer/CustomerRepository.class
+com/possible/customer/controller/CustomerController.class
+com/possible/customer/CustomerApplication.class
