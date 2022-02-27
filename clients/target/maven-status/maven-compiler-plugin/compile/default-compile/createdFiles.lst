@@ -1,0 +1,7 @@
+com/possible/clients/fraud/FraudClient.class
+com/possible/clients/customer/CustomerClient.class
+com/possible/clients/notification/NotificationClient.class
+com/possible/clients/notification/dto/NotificationResponse.class
+com/possible/clients/fraud/dto/FraudCheckResponse.class
+com/possible/clients/notification/dto/NotificationResponse$NotificationResponseBuilder.class
+com/possible/clients/fraud/dto/FraudCheckResponse$FraudCheckResponseBuilder.class
